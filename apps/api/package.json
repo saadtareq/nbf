@@ -1,0 +1,24 @@
+{
+  "name": "@nexusbim/api",
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@fastify/websocket": "^11.0.1",
+    "@nexusbim/bim-schema": "workspace:*",
+    "@nexusbim/exporters": "workspace:*",
+    "@nexusbim/gdl-compiler": "workspace:*",
+    "@nexusbim/qs-ve-engine": "workspace:*",
+    "bullmq": "^5.28.2",
+    "drizzle-orm": "^0.36.4",
+    "fastify": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2"
+  }
+}

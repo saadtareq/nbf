@@ -1,0 +1,6 @@
+{
+  "name": "@nexusbim/gsm-packager",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./compile-gsm.ts"
+}
